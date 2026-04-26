@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otolith Thermal Marking & Fish Aging Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+        body { font-family: 'Inter', system_ui, sans-serif; }
+        .heading-font { font-family: 'Space Grotesk', sans-serif; }
+        
+        .hero-bg {
+            background-image: url('orange-glove.jpg');
+            background-size: 160%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        .pricing-bg {
+            background-image: url('4.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .voucher-bg {
+            background-image: url('photod.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- NAVBAR -->
+    <nav class="bg-white/90 backdrop-blur-md border-b sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-x-3">
+                <img src="haida copy.jpg" alt="Haida Salmon" class="w-12 h-12 object-contain drop-shadow-md">
+                <h1 class="heading-font text-3xl tracking-tight">Sagilith</h1>
+            </div>
+            <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
+                <a href="#thermal" class="hover:text-orange-600 transition-colors">Thermal Marking</a>
+                <a href="#about" class="hover:text-orange-600 transition-colors">About</a>
+                <a href="#pricing" class="hover:text-orange-600 transition-colors">Pricing</a>
+                <a href="#lab" class="hover:text-orange-600 transition-colors">Lab</a>
+                <a href="#vouchers" class="hover:text-orange-600 transition-colors">Vouchers</a>
+                <a href="#gallery" class="hover:text-orange-600 transition-colors">Photo Gallery</a>
+                <a href="#contact" class="hover:text-orange-600 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero-bg relative flex items-center">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative max-w-7xl mx-auto px-6 py-24 md:py-32 text-white z-10">
+            <div class="max-w-2xl">
+                <h2 class="heading-font text-6xl md:text-7xl leading-none tracking-tighter mb-6">
+                    Otolith Thermal Marking &<br>Fish Aging Lab
+                </h2>
+                <p class="text-xl md:text-2xl text-teal-100 mb-10">
+                    Specializing in thermal marking hatchery salmon.
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <!-- THERMAL MARKING -->
+    <section id="thermal" class="max-w-7xl mx-auto px-6 py-20">
+        <h2 class="heading-font text-5xl tracking-tighter text-center mb-8">Otolith Thermal Marking</h2>
+        <div class="flex justify-center mb-12">
+            <img src="tm.jpg" alt="Otolith Thermal Marking" class="rounded-3xl shadow-2xl max-w-4xl w-full object-cover">
+        </div>
+        <div class="max-w-4xl mx-auto text-lg text-slate-600 leading-relaxed">
+            <p class="mb-8">Otolith thermal marking is a clever, non-invasive technique used primarily in salmon hatcheries to permanently "Mark" fish with a unique internal bar code.</p>
+            
+            <h3 class="text-2xl font-semibold text-slate-800 mt-10 mb-4">What is an Otolith?</h3>
+            <p class="mb-8">An otolith (from Greek: "ear stone") is a small, hard, calcium-carbonate structure in the inner ear of bony fish. It helps the fish with balance and hearing. As the fish grows, the otolith grows too by adding microscopic layers of material daily — much like how a tree adds wood.</p>
+            
+            <h3 class="text-2xl font-semibold text-slate-800 mt-10 mb-4">How Otolith Thermal Marking Works</h3>
+            <p class="mb-6">Hatcheries create artificial marks on the otolith while the fish is still an embryo and/or alevin:</p>
+            <ul class="list-disc pl-6 space-y-4 text-slate-600">
+                <li>They briefly change the water temperature in the incubation tanks (typically a drop of 3–5°C for 24–48 hours, then back to normal).</li>
+                <li>This abrupt change in temperature disrupts the normal daily growth of the otolith, creating a visible dark ring (or band) when viewed under a microscope with transmitted light.</li>
+                <li>By repeating controlled temperature cycles with different durations or timing, hatcheries can create a unique pattern or "barcode" of dark and light rings.</li>
+                <li>This pattern acts as a permanent internal mark that identifies the Country, State, hatchery, brood year, release site, or even a specific group of fish.</li>
+            </ul>
+
+            <p class="mt-12 text-center">
+                <a href="https://www.npafc.org/otolith-marking/" target="_blank" class="inline-flex items-center gap-2 text-orange-600 hover:text-orange-700 font-medium text-lg underline decoration-1 hover:decoration-2 transition-all">
+                    View NPAFC (North Pacific Anadromous Fish Commission) marks here →
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="max-w-7xl mx-auto px-6 py-20 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="heading-font text-5xl tracking-tighter text-center mb-10">About Michael Wunderlich</h2>
+            <div class="flex justify-center mb-10">
+                <img src="meandrocky.jpg" alt="Michael Wunderlich with Rocky" class="rounded-3xl shadow-xl max-w-md w-full object-cover">
+            </div>
+            <div class="prose prose-lg text-slate-600 mx-auto leading-relaxed">
+                <p>Hi, I’m Michael Wunderlich, founder and principal consultant of Sagilith, a private fisheries laboratory dedicated to otolith thermal marking and precise fish aging services.</p>
+                <p>I started my career in British Columbia Canada, working with otoliths and other fish aging structures from rainbow trout, kokanee, lake trout, walleye, and pike. In 2005, I moved to Alaska to conduct research on thermal marking at one of the largest salmon hatcheries in Alaska. During that time, I consulted and worked with the Alaska Department of Fish and Game, the North Pacific Anadromous Fish Commission, National Marine Fisheries Service, University of Alaska Southeast, Japan, Russia, and all the major Alaska salmon hatcheries. In 2013, I moved to Seattle, Washington to start Sagilith. At which time I started running the thermal marking programs for utility companies such as Seattle Public Utilities and Tacoma Power.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING (BRIGHTER BACKGROUND) -->
+    <section id="pricing" class="pricing-bg relative py-20">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative max-w-4xl mx-auto px-6">
+            <h2 class="heading-font text-5xl tracking-tighter text-center mb-12 text-white">Pricing</h2>
+            <div class="space-y-6">
+                <div class="border border-white/30 bg-white/95 backdrop-blur-sm rounded-3xl overflow-hidden">
+                    <button onclick="togglePricing(this)" class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-orange-50 text-orange-600 hover:text-orange-700 transition-all">
+                        <span class="text-2xl font-semibold">Thermal Mark Analysis</span>
+                        <span class="text-3xl text-slate-800 transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="pricing-content hidden px-8 pb-8 text-slate-700">
+                        <p class="text-xl"><strong>$16.50</strong> per otolith — All salmon & trout except Chinook<br><strong>$18.50</strong> per otolith — Chinook salmon</p>
+                    </div>
+                </div>
+                <div class="border border-white/30 bg-white/95 backdrop-blur-sm rounded-3xl overflow-hidden">
+                    <button onclick="togglePricing(this)" class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-orange-50 text-orange-600 hover:text-orange-700 transition-all">
+                        <span class="text-2xl font-semibold">Otolith Aging</span>
+                        <span class="text-3xl text-slate-800 transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="pricing-content hidden px-8 pb-8 text-slate-700">
+                        <p class="text-xl"><strong>$16.50</strong> per otolith — All salmon & trout except Chinook<br><strong>$18.50</strong> per otolith — Chinook salmon</p>
+                    </div>
+                </div>
+                <div class="border border-white/30 bg-white/95 backdrop-blur-sm rounded-3xl overflow-hidden">
+                    <button onclick="togglePricing(this)" class="w-full px-8 py-6 text-left flex justify-between items-center hover:bg-orange-50 text-orange-600 hover:text-orange-700 transition-all">
+                        <span class="text-2xl font-semibold">Scale Aging</span>
+                        <span class="text-3xl text-slate-800 transition-transform duration-300">↓</span>
+                    </button>
+                    <div class="pricing-content hidden px-8 pb-8 text-slate-700">
+                        <p class="text-xl"><strong>$15.00</strong> per scale</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LAB -->
+    <section id="lab" class="max-w-7xl mx-auto px-6 py-20 bg-white">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="heading-font text-5xl tracking-tighter text-center mb-12">My Lab</h2>
+            <div class="flex justify-center mb-10">
+                <img src="lab.jpg" alt="Sagilith Fisheries Laboratory" class="rounded-3xl shadow-2xl w-full max-w-5xl object-cover">
+            </div>
+            <div class="max-w-3xl mx-auto text-center text-lg text-slate-600">
+                <p>Equipped with high-quality Leica and Zeiss microscopes.</p>
+                <p class="mt-6 font-medium">My lab is fully equipped to deliver fast turnaround times — results in days, not months like many other laboratories.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- VOUCHER REPORTS -->
+    <section id="vouchers" class="voucher-bg relative py-20">
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative max-w-4xl mx-auto px-6 z-10">
+            <h2 class="heading-font text-5xl tracking-tighter text-center mb-8 text-white">Voucher Reports</h2>
+            <p class="text-center text-lg text-white/90 max-w-3xl mx-auto mb-12">
+                I custom design NPAFC marks for clients to serve their specific needs.
+            </p>
+            
+            <div class="space-y-12">
+                <!-- Seattle Public Utilities -->
+                <div>
+                    <h3 class="text-3xl font-semibold mb-6 text-orange-300">Seattle Public Utilities — Cedar River Hatchery</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <a href="BY24.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2024 Mark Report</a>
+                        <a href="BY23.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2023 Mark Report</a>
+                        <a href="BY22.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2022 Mark Report</a>
+                        <a href="BY21.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2021 Mark Report</a>
+                        <a href="BY20.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2020 Mark Report</a>
+                        <a href="BY19.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2019 Mark Report</a>
+                        <a href="BY18.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2018 Mark Report</a>
+                        <a href="BY17.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2017 Mark Report</a>
+                        <a href="BY16.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2016 Mark Report</a>
+                        <a href="BY15.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2015 Mark Report</a>
+                        <a href="BY14.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2014 Mark Report</a>
+                        <a href="BY13.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2013 Mark Report</a>
+                    </div>
+                </div>
+
+                <!-- Tacoma Power -->
+                <div>
+                    <h3 class="text-3xl font-semibold mb-6 text-orange-300">Tacoma Power — Saltwater Park Hatchery</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <a href="TPBY24.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2024 Mark Report</a>
+                        <a href="TPBY23.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2023 Mark Report</a>
+                        <a href="TPBY22.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2022 Mark Report</a>
+                        <a href="TPBY21.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2021 Mark Report</a>
+                        <a href="TPBY20.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2020 Mark Report</a>
+                        <a href="TPBY19.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2019 Mark Report</a>
+                        <a href="TPBY18.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2018 Mark Report</a>
+                        <a href="TPBY17.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2017 Mark Report</a>
+                        <a href="TPBY16.pdf" class="block p-5 bg-white/95 hover:bg-orange-50 rounded-2xl transition-colors text-slate-800">Brood Year 2016 Mark Report</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section id="gallery" class="max-w-7xl mx-auto px-6 py-20 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="heading-font text-5xl tracking-tighter text-center mb-12">Photo Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="1.jpg" alt="Hatchery inspection" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="2.jpg" alt="Hatchery tanks" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="5.jpg" alt="Lab team examining samples" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="andrew.jpg" alt="Facility work" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="f.jpg" alt="Otolith extraction" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="ffsbc.jpg" alt="Freshwater Fisheries Society gear" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="g.jpg" alt="Preserved samples" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="h.jpg" alt="Team reviewing images" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="i.jpg" alt="Sample shipment" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="incubatorjar.jpg" alt="Incubating eggs" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="j.jpg" alt="Sample storage" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="k.jpg" alt="Fish specimen" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="l.jpg" alt="Microscope workstation" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="photoe.jpg" alt="Preserved fish samples" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="spuhatchery.jpg.png" alt="Hatchery raceways" class="w-full aspect-square object-cover"></div>
+                <div class="rounded-3xl overflow-hidden shadow-lg"><img src="crh.jpg" alt="Hatchery building exterior" class="w-full aspect-square object-cover"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="max-w-7xl mx-auto px-6 py-20 text-center">
+        <h2 class="heading-font text-5xl tracking-tighter mb-6">Contact Michael Wunderlich</h2>
+        <div class="space-y-4">
+            <a href="mailto:wunderlich.michael@gmail.com" class="block text-2xl text-orange-600 hover:text-orange-700 transition-colors">Wunderlich.michael@gmail.com</a>
+            <a href="tel:+15037146089" class="block text-2xl text-orange-600 hover:text-orange-700 transition-colors">1.503.714.6089</a>
+        </div>
+    </section>
+
+    <script>
+        function togglePricing(btn) {
+            const content = btn.nextElementSibling;
+            const arrow = btn.querySelector('span:last-child');
+            content.classList.toggle('hidden');
+            if (content.classList.contains('hidden')) {
+                arrow.style.transform = 'rotate(0deg)';
+            } else {
+                arrow.style.transform = 'rotate(180deg)';
+            }
+        }
+    </script>
+
+</body>
+</html>
